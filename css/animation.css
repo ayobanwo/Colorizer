@@ -1,0 +1,65 @@
+/*
+The CSS export should solely be used as a reference.
+For a more detailed animation export the JSON file should be used.
+*/
+#Rectangle_6 {
+  transform: translateX(-50%) translateY(-50%);
+  animation: Rectangle_6__vectorPath__1 1003ms 0ms linear forwards,
+    Rectangle_6__vectorPath__2 997ms 1003ms ease-in-out forwards,
+    Rectangle_6__fillColor__1 1000ms 0ms linear forwards,
+    Rectangle_6__fillColor__2 1000ms 1000ms linear forwards;
+}
+
+@keyframes Rectangle_6__vectorPath__1 {
+  from {
+    d: path(
+      "M 37.45787811279297 24.678329467773438 C 98.99709701538086 -10.714244842529297 293.26041412353516 -5.640316009521484 379.4577941894531 24.678329467773438 C 465.6551742553711 54.99697494506836 428.9959716796875 321.53886795043945 394.2698059082031 361.6083679199219 C 359.54364013671875 401.6778678894043 74.30236053466797 404.6094741821289 37.45787811279297 372.678466796875 C 0.6133956909179688 340.7474594116211 -24.081340789794922 60.07090377807617 37.45787811279297 24.678329467773438 Z"
+    );
+    fill-rule: evenodd;
+  }
+
+  to {
+    d: path(
+      "M 0 433.1805725097656 L 535.4071044921875 0 L 837.9307250976562 371.2159729003906 L 320.614990234375 810.63330078125 L 0 433.1805725097656 Z"
+    );
+    fill-rule: evenodd;
+  }
+}
+@keyframes Rectangle_6__vectorPath__2 {
+  from {
+    d: path(
+      "M 0 433.1805725097656 L 535.4071044921875 0 L 837.9307250976562 371.2159729003906 L 320.614990234375 810.63330078125 L 0 433.1805725097656 Z"
+    );
+    fill-rule: evenodd;
+  }
+
+  to {
+    d: path(
+      "M 0 376.69915771484375 C 0 376.69915771484375 487.3438949584961 315.6633758544922 585 54.19914245605469 C 682.6561050415039 -207.2650909423828 643.267333984375 553.0434112548828 359.5 724.6992797851562 C 75.732666015625 896.3551483154297 266.5 455.69915771484375 266.5 455.69915771484375 L 0 376.69915771484375 Z"
+    );
+    fill-rule: evenodd;
+  }
+}
+@keyframes Rectangle_6__fillColor__1 {
+  from {
+    background-color: rgba(
+      71.00000336766243,
+      230.00000149011612,
+      177.0000046491623,
+      1
+    );
+  }
+
+  to {
+    background-color: rgba(71, 136, 230, 1);
+  }
+}
+@keyframes Rectangle_6__fillColor__2 {
+  from {
+    background-color: rgba(71, 136, 230, 1);
+  }
+
+  to {
+    background-color: rgba(152, 71, 230, 1);
+  }
+}
